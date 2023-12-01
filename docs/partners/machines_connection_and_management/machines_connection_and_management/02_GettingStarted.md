@@ -65,4 +65,21 @@ Let's explore the process of connecting a Greenfield Machine to the platform usi
 
 ### Example: Configuring a greenfield machine
 
-For the configuration of a GreenField machine we can select the template **Greenfield Production Opcua and Clamp**
+- *Select Template*: For the configuration of a GreenField machine we can select the template **Greenfield Production Opcua and Clamp**
+- *Name*: as in the previous example, we have to choose the name that we want to assign to our device.
+- *Graph Editor*: this Template does not support the Wizard Mode, so we have to configure our device using the Graph Editor. The Graph Editor is a tool that allows you to configure your device in a more detailed way. It is composed by a series of nodes that you can connect to each other to create your configuration. Each node has a specific function, and you can configure it by clicking on it. You can also add new nodes by clicking on the **+ Add Node** button on the top right corner of the page.
+  
+![Graph Editor](./02_GettingStarted_img/GraphEditor.png)
+
+- *Edit Settings*: Now we can edit the settings of our device by clicking the node we wold like to edit.
+
+!!! Note
+    We strongly recommand you to edit only the Green node Settings, and not the other nodes.
+
+In this case we can edit the opcua node settings, by clicking on it, and then edit the address field and the port field. After that we can click on the **Save** button on the bottom of the settings section.
+
+![Opcua Settings](./02_GettingStarted_img/OpcuaNodeSettings.png)
+
+- *Select Device*: As in the previous example we can select the device that we want to configure, and we select the **4ZeroBox Lite (ZM1 + EXP-IO)**
+- *Configure Device Network*: As in the previous example we can configure the network of our device, and the backup networks.
+- *Configure your Device*: Finally we can configure our device, by selecting the serial port from the pop-up that appear when we click the Connect button.
