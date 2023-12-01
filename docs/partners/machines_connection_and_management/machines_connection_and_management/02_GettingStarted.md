@@ -21,11 +21,27 @@ You can filter by:
 - *Machine Type*: the type of machine you want to connect to.
 - *OT Protocol*: the protocol used by your machine.
 
+## Templates
+
+- **Blank**: The blank template allows you to create a new configuration from scratch, you can choose if create the configuration using the Wizard Mode or the Graph Editor.
+- **Brownfield Clamp and Contact**: ...
+- **Brownfield Clamp**: ...
+- **Electrical Panel**: ...
+- **Electrical Panel with Schneider Power Meter**: ...
+- **Brownfield Production**: ...
+- **Brownfield Production and Operations**: ...
+- **Brownfield Production Opcua and Clamp**: ...
+- **Greenfield Production Operations with Opcua, Clamp and Bar-Code**: ...
+- **Greenfield Machine Control With Opcua, Clamp and Bar-Code**: ...
+- **Demo**: ...
+
 You can also access to *My Project* page by clicking on the button on the bottom left corner of the page, here you can find all of your custom templates that you have created. You can use them to create new configurations.
 
 The **Clone a Machine** page allows you to create a new configuration starting from an existing one.
 
 For using a template, you have to click on the **Use** button, that appear when you hover the mouse on the template.
+
+![New Configuration Page](./02_GettingStarted_img/NewConfiguration.png)
 
 ## Connection of Brownfield Machines
 
@@ -74,7 +90,7 @@ Let's explore the process of connecting a Greenfield Machine to the platform usi
 - *Edit Settings*: Now we can edit the settings of our device by clicking the node we wold like to edit.
 
 !!! Note
-    We strongly recommand you to edit only the Green node Settings, and not the other nodes.
+    We strongly recommand you to only edit the settings of the Green nodes, and not the other nodes.
 
 In this case we can edit the opcua node settings, by clicking on it, and then edit the address field and the port field. After that we can click on the **Save** button on the bottom of the settings section.
 

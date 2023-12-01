@@ -195,7 +195,8 @@ nav:
     - Rules: partners/zerynth_app/rules/placeholder.md
     - Tools: partners/zerynth_app/tools/placeholder.md
   - Machines Connection and Management:
-    - Machines Connection and Management: partners/machines_connection_and_management/machines_connection_and_management/02_GettingStarted.md
+    - Get Started: partners/machines_connection_and_management/machines_connection_and_management/02_GettingStarted.md
+    - Zerynth Advanced Configurator: partners/machines_connection_and_management/machines_connection_and_management/03_ZerynthAdvancedConfigurator.md
   - Edge Layer:
     - {Introduction: partners/edge_layer/index.md}
     - Industrial IOT Kit:
