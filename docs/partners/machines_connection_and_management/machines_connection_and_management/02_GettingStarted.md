@@ -29,7 +29,6 @@ You can filter by:
 - **Electrical Panel with Schneider Power Meter**
 - **Brownfield Production**
 - **Brownfield Production Opcua and Clamp**
-<!-- - **Demo** -->
 
 You can also access to *My Project* page by clicking on the button on the bottom left corner of the page, here you can find all of your custom templates that you have created. You can use them to create new configurations.
 
